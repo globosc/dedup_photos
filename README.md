@@ -34,9 +34,9 @@ Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
 Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta de fotos y tunombre/deduplicador-de-fotos con el nombre de la imagen en Docker Hub.
 
 ## Requisitos
-- Python 3.x
-- Cryptography
-- TQDM
+- **Python 3.11**
+- **Cryptography**
+- **TQDM**
 
 ## Autor
 Gustavo Lobos
