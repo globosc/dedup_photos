@@ -40,7 +40,8 @@ Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta d
 
 ## Autor
 Gustavo Lobos
-Contribuciones
+
+## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar o extender esta herramienta, no dudes en crear un "pull request".
 
 Licencia
