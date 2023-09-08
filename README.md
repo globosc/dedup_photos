@@ -30,6 +30,7 @@ Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
    ```bash
    docker run -v /ruta/a/tu/carpeta_de_fotos:/app/tu/carpeta_de_fotos tunombre/deduplicador-de-fotos
 
+
 Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta de fotos y tunombre/deduplicador-de-fotos con el nombre de la imagen en Docker Hub.
 
 ## Requisitos
