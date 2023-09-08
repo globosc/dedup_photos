@@ -29,3 +29,19 @@ Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
 
    ```bash
    docker run -v /ruta/a/tu/carpeta_de_fotos:/app/tu/carpeta_de_fotos tunombre/deduplicador-de-fotos
+
+Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta de fotos y tunombre/deduplicador-de-fotos con el nombre de la imagen en Docker Hub.
+
+## Requisitos
+- Python 3.x
+- Cryptography
+- TQDM
+
+## Autor
+Gustavo Lobos
+Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar o extender esta herramienta, no dudes en crear un "pull request".
+
+Licencia
+Este proyecto está bajo la Licencia GNU GPL (General Public License) - consulta el archivo LICENSE para más detalles.
+
