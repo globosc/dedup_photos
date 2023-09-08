@@ -6,6 +6,12 @@
 
 El **Deduplicador de Fotos** es una herramienta de línea de comandos escrita en Python que te ayuda a identificar y gestionar las fotos duplicadas en una carpeta de fotos. Esta utilidad utiliza el algoritmo de hash SHA-256 para calcular el hash de cada archivo de imagen y compara estos hashes para encontrar duplicados.
 
+# Desafio 
+ 
+Link del repositorio: <[https://github.com/globosc/challenge_sre](https://github.com/globosc/dedup_photos.git)>
+
+Link DockerHub: <[https://hub.docker.com/repository/docker/globoscx/sre-challenge/general](https://hub.docker.com/r/globoscx/deduple_fotos_lnx)>
+
 ## Características principales
 
 - Encuentra y muestra fotos duplicadas en una carpeta.
