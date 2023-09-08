@@ -12,5 +12,5 @@ WORKDIR /app
 RUN pip install -r /app/requirements.txt
 
 # Ejecuta el script cuando el contenedor se inicie
-CMD ["python", "deduplica_fotos.py"]
+CMD ["python", "deduplica_fotos_lnx.py"]
 
