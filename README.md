@@ -19,16 +19,16 @@ El **Deduplicador de Fotos** es una herramienta de línea de comandos escrita en
 
 2. Ejecuta el script proporcionando la ruta de la carpeta de fotos que deseas analizar:
 
-   ```bash
-   python deduplicador.py /ruta/a/tu/carpeta_de_fotos
+
+   `python deduplicador.py /ruta/a/tu/carpeta_de_fotos`
 
 ## Uso con Docker
 
 También puedes utilizar el Deduplicador de Fotos a través de Docker. El script está disponible en Docker Hub.
 Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
 
-   ```bash
-   docker run -v /ruta/a/tu/carpeta_de_fotos:/app/tu/carpeta_de_fotos tunombre/deduplicador-de-fotos
+
+   `docker run -v /ruta/a/tu/carpeta_de_fotos:/app/tu/carpeta_de_fotos tunombre/deduplicador-de-fotos`
 
 
 Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta de fotos y tunombre/deduplicador-de-fotos con el nombre de la imagen en Docker Hub.
