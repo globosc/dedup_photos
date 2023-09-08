@@ -8,9 +8,9 @@ El **Deduplicador de Fotos** es una herramienta de línea de comandos escrita en
 
 # Desafio 
  
-Link del repositorio: <(https://github.com/globosc/dedup_photos.git)>
+Link del repositorio: https://github.com/globosc/dedup_photos.git
 
-Link DockerHub: <(https://hub.docker.com/r/globoscx/deduple_fotos_lnx)>
+Link DockerHub: https://hub.docker.com/r/globoscx/deduple_fotos_lnx
 
 ## Características principales
 
