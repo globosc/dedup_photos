@@ -30,6 +30,14 @@ Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
 
    `docker run -v /ruta/a/tu/carpeta_de_fotos:/app/tu/carpeta_de_fotos tunombre/deduplicador-de-fotos`
 
+## Validación desde DockerHub
+
+1. Recall a la imagen: `docker pull globoscx/sre-challenge:latest`
+2. Ejecutar Contaniner: `docker run -d -p 8080:80 globoscx/sre-challenge`
+3. Abrir un Browser y acceder a: <http://localhost:8080/>
+4. Testing al texto cifrado: `curl -sL http://localhost:8080 |base64 -d`
+
+
 
 Asegúrate de reemplazar /ruta/a/tu/carpeta_de_fotos con la ruta de tu carpeta de fotos y tunombre/deduplicador-de-fotos con el nombre de la imagen en Docker Hub.
 
