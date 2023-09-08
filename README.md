@@ -44,6 +44,6 @@ Gustavo Lobos
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar o extender esta herramienta, no dudes en crear un "pull request".
 
-Licencia
+## Licencia
 Este proyecto está bajo la Licencia GNU GPL (General Public License) - consulta el archivo LICENSE para más detalles.
 
