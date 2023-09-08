@@ -32,10 +32,10 @@ Para ejecutarlo con Docker, puedes utilizar el siguiente comando:
 
 ## Validación desde DockerHub
 
-1. Recall a la imagen: `docker pull globoscx/sre-challenge:latest`
-2. Ejecutar Contaniner: `docker run -d -p 8080:80 globoscx/sre-challenge`
-3. Abrir un Browser y acceder a: <http://localhost:8080/>
-4. Testing al texto cifrado: `curl -sL http://localhost:8080 |base64 -d`
+1. Recall a la imagen: `docker pull globoscx/deduple_fotos_lnx`
+2. Ejecutar Contaniner: `docker run -d --name deduple_fotos_lnx globoscx/deduple_fotos_lnx:latest`
+3. Validar estado: `docker ps`
+4. Terminal: `docker exec -it deduple_fotos_lnx bash`
 
 
 
